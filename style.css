@@ -1,0 +1,43 @@
+body{
+  background-color:rgb(22, 0, 218);
+}
+hr {
+  background-color: WHITE;
+  border-style: dotted;
+  border-color:rgb(146, 101, 101);
+  border-width: 1px;
+  height: 1 px;
+}
+
+img {
+  padding: 10;
+  height:20px;
+  width: 10px;
+}
+
+h1 {
+  color: #66BFBF;
+}
+h3 {
+  color: #66BFBF;
+}
+
+button  {
+  padding: 12px;
+  width:190px;
+  cursor:pointer;
+  background:#66BFBF;
+  color:white;
+  transition: .5s ease;
+  border-radius: 10px;
+}
+
+button:hover{
+  background: transparent;
+  border : 2px solid #799be6;
+  box-shadow : 0 0 10px 0 #66BFBF inset,
+                0 0 10px 4px #66BFBF;
+  border-radius:10px;
+
+}
+
